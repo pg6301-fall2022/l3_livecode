@@ -9,7 +9,7 @@ const MOVIES = [
         plot: "utter confusion"
     },
     {
-        title: "Lecture 2 - Web applications",
+        title: "Lecture 2 - Web applications and API-design",
         year: 2022,
         plot: "also confusion, but more modern"
     },

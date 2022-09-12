@@ -8,7 +8,7 @@ describe("movie pages", () => {
 
         const element = document.createElement("div");
         render(<ListMovies />, element);
-
+        expect(element.innerHTML).toMatchSnapshot();
     });
 
     it("test add new movies", () => {
