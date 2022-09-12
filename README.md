@@ -1,8 +1,8 @@
 # Movie database
 
-* [ ] Create React application
-  * [ ] package.json - npm run dev/ npm run start
-  * [ ] parcel
+* [x] Create React application
+  * [x] package.json - npm run dev/ npm run start
+  * [x] parcel
   * [ ] React router
 * [ ] Show existing movies
 * [ ] Add new movies
