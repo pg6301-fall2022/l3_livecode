@@ -7,11 +7,11 @@
 * [x] Show existing movies
 * [x] Add new movies
   * [x] useEffect, useState
-* [ ] Introduce testing
-  * [ ] Run jest test
-  * [ ] Snapshot testing
-    * [ ] useContext
-  * [ ] Testing with simulated action
+* [x] Introduce testing
+  * [x] Run jest test
+  * [x] Snapshot testing
+    * [x] useContext
+  * [x] Testing with simulated action
   * [ ] Run test on GitHub action
 
 # Commands cheat sheet
