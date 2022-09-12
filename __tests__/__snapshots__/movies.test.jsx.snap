@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movie pages shows movies list 1`] = `"<div><h1> Movie List </h1><div><h2> Plan 9 from outer space - (1957) </h2><p> utter confusion </p></div><div><h2> Lecture 2 - Web applications and API-design - (2022) </h2><p> also confusion, but more modern </p></div></div>"`;
