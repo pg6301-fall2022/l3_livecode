@@ -29,3 +29,7 @@ For example:
 - npm install jest-environment-jsdom
 
 These will show up in package.json (in the example, I have moved them from "dependencies" to "devDependencies")
+
+Use "--save-dev" as an option if you want to install as a devDependency
+
+- npm install --save-dev <packageName>
