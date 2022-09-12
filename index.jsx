@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Link, Route, Routes, useNavigate} from "react-router-dom";
+import {useEffect, useState} from "react";
 
 
 function FrontPage(){
@@ -46,8 +47,45 @@ function ListMovies() {
 function MovieApplication() {
     return <Routes>
             <Route path={"/"} element={<ListMovies />}/>
-            <Route path={"/new"} element={<h1>This is where you'll add something new</h1>}/>
+            <Route path={"/new"} element={<CreateMovie />}/>
         </Routes>
+}
+
+function CreateMovie(){
+    const [title, setTitle] = useState("");
+    const [year, setYear] = useState("");
+    const [plot, setPlot] = useState("");
+
+    const [newMovie, setNewMovie] = useState({});
+
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        setNewMovie({title, year, plot});
+        }, [title, year, plot]);
+
+    function handleSubmit(event){
+        event.preventDefault();
+        MOVIES.push(newMovie);
+        navigate("..");
+    }
+
+    return <form onSubmit={handleSubmit}>
+        <h1> Create new movie </h1>
+        <div>
+            Title: <input value={title} onChange={event => setTitle(event.target.value)}/>
+        </div>
+        <div>
+            Year: <input value={year} onChange={event => setYear(event.target.value)}/>
+        </div>
+        <div>
+            Plot: <textarea value={plot} onChange={event => setPlot(event.target.value)}/>
+        </div>
+        <button>Submit</button>
+        <pre>
+            {JSON.stringify(newMovie)}
+        </pre>
+    </form>;
 }
 
 function Application(){
