@@ -3,7 +3,7 @@
 * [x] Create React application
   * [x] package.json - npm run dev/ npm run start
   * [x] parcel
-  * [ ] React router
+  * [x] React router
 * [ ] Show existing movies
 * [ ] Add new movies
   * [ ] useEffect, useState
