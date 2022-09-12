@@ -1,0 +1,28 @@
+{
+  "name": "l3_livecode",
+  "version": "1.0.0",
+  "description": "* [ ] Create React application   * [ ]  package.json - npm run dev/ npm run start   * [ ] parcel   * [ ] React router * [ ] Show existing movies * [ ] Add new movies   * [ ] useEffect, useState * [ ] Introduce testing   * [ ] Run jest test   * [ ] Snapshot testing     * [ ] useContext   * [ ] Testing with simulated action   * [ ] Run test on GitHub action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pg6301-fall2022/l3_livecode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pg6301-fall2022/l3_livecode/issues"
+  },
+  "homepage": "https://github.com/pg6301-fall2022/l3_livecode#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  }
+}

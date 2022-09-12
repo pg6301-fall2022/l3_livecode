@@ -1,7 +1,7 @@
 # Movie database
 
 * [ ] Create React application
-  * [ ]  package.json - npm run dev/ npm run start
+  * [ ] package.json - npm run dev/ npm run start
   * [ ] parcel
   * [ ] React router
 * [ ] Show existing movies
@@ -13,3 +13,10 @@
     * [ ] useContext
   * [ ] Testing with simulated action
   * [ ] Run test on GitHub action
+
+# Commands cheat sheet
+
+- git init (to start the git repo)
+- npm init -y (create package.json with default values)
+- npm install parcel (to install parcel)
+- npm install react react-dom react-router-dom (to install these packages)
