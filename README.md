@@ -20,3 +20,12 @@
 - npm init -y (create package.json with default values)
 - npm install parcel (to install parcel)
 - npm install react react-dom react-router-dom (to install these packages)
+
+To install packages:
+- npm install <packageName>
+For example:
+- npm install jest
+- npm install jsdom
+- npm install jest-environment-jsdom
+
+These will show up in package.json (in the example, I have moved them from "dependencies" to "devDependencies")
